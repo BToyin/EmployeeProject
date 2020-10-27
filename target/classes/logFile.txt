@@ -1,0 +1,23 @@
+[TRACE] 2020-10-26 21:07:15.845 [main] Starter - Migration of data from the csv file in milliseconds: 153
+[TRACE] 2020-10-26 21:07:15.845 [main] Starter - The following number of entries are migrated to employees collection: 9943
+[TRACE] 2020-10-26 21:07:15.845 [main] Starter - The following number of entries are migrated to employees duplicates collection: 57
+[TRACE] 2020-10-26 21:07:15.917 [main] Starter - Migration of data from the csv file in milliseconds: 72
+[TRACE] 2020-10-26 21:07:15.917 [main] Starter - The following number of entries are migrated to employees collection: 9943
+[TRACE] 2020-10-26 21:07:15.917 [main] Starter - The following number of entries are migrated to employees duplicates collection: 57
+[ERROR] 2020-10-26 21:07:16.738 [0] Starter - The following exception was thrown: Duplicate entry '537774' for key 'employees.PRIMARY'
+[ERROR] 2020-10-26 21:07:16.738 [0] Starter - Printing Stack Trace
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.mysql.cj.util.Util.getInstance(Util.java:167)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.mysql.cj.util.Util.getInstance(Util.java:174)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.sparta.toyin.Controller.EmployeeDAO.setInsertEmployees(EmployeeDAO.java:54)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - com.sparta.toyin.Task.run(Task.java:11)
+[ERROR] 2020-10-26 21:07:16.746 [0] Starter - java.base/java.lang.Thread.run(Thread.java:832)

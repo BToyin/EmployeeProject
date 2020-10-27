@@ -1,0 +1,8 @@
+[TRACE] 2020-10-26 21:07:44.544 [main] Starter - Migration of data from the csv file in milliseconds: 182
+[TRACE] 2020-10-26 21:07:44.544 [main] Starter - The following number of entries are migrated to employees collection: 9943
+[TRACE] 2020-10-26 21:07:44.544 [main] Starter - The following number of entries are migrated to employees duplicates collection: 57
+[TRACE] 2020-10-26 21:07:44.624 [main] Starter - Migration of data from the csv file in milliseconds: 80
+[TRACE] 2020-10-26 21:07:44.624 [main] Starter - The following number of entries are migrated to employees collection: 9943
+[TRACE] 2020-10-26 21:07:44.624 [main] Starter - The following number of entries are migrated to employees duplicates collection: 57
+[TRACE] 2020-10-26 21:08:02.973 [0] Starter - The following number of entries were persisted successfully: 9943
+[TRACE] 2020-10-26 21:08:02.973 [1] Starter - The following number of entries were persisted successfully: 9943
