@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 public class EmployeeDAO {
 
-    private String URL = "jdbc:mysql://localhost:3306/employees";
+    private String URL = "jdbc:mysql://localhost:3306/employees/rewriteBatchedStatement=true";
     private Connection connection = null;
     private String insertEmployees = "INSERT INTO employees " +
             "VALUES(?,?,?,?,?,?,?,?,?,?)";
@@ -19,7 +19,6 @@ public class EmployeeDAO {
     private static int hasRun = 0;
 
     public Connection connectingToDatabase() {
-
         try {
             connection = DriverManager.getConnection(URL, System.getenv("java_username"), System.getenv("java_password"));
             Printer.printSuccessfulConnection();

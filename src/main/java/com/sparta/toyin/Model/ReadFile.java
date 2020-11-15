@@ -14,8 +14,8 @@ import java.util.*;
 
 public class ReadFile {
 
-    static String inputFile = "C://Users//baita//SpartaGlobal//Java Projects//EmployeesProject//EmployeesProject//resources//EmployeeRecords.csv";
-//    static String inputFile = "C://Users//baita//SpartaGlobal//Java Projects//EmployeesProject//EmployeesProject//resources//EmployeeRecordsLarge.csv";
+//    static String inputFile = "C://Users//baita//SpartaGlobal//Java Projects//EmployeesProject//EmployeesProject//resources//EmployeeRecords.csv";
+    static String inputFile = "C://Users//baita//SpartaGlobal//Java Projects//EmployeesProject//EmployeesProject//resources//EmployeeRecordsLarge.csv";
     static int counter =0;
 
 
@@ -23,6 +23,7 @@ public class ReadFile {
 
         ArrayList<EmployeeDTO> employeeRecordsDuplicates = new ArrayList();
         HashMap<String,EmployeeDTO> employeeRecords = new HashMap<>();
+
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile))) {
             //read the number of lines in the file.
             String line;

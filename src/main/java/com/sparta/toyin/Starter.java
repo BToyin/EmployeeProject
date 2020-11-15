@@ -16,7 +16,8 @@ public class Starter {
         Task task = new Task();
         int numOfThreads = 2;
         for (int i = 0;i<numOfThreads;i++) {
-            //separate the hashmap so you're not passing the whole file to each thread
+            // separate the hashmap so you're not passing the whole file to each thread
+            // split hashmap into a smaller hashmaps - 
             Thread thread = new Thread(task,String.valueOf(i));
             thread.start();
         }

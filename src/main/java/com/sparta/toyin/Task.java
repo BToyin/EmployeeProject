@@ -6,6 +6,7 @@ import com.sparta.toyin.Model.ReadFile;
 public class Task implements Runnable {
     static EmployeeDAO employeeDAO = new EmployeeDAO();
 
+
     @Override
     public void run() {
         employeeDAO.setInsertEmployees(Starter.input);
