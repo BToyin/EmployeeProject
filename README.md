@@ -8,7 +8,7 @@
 - Report the performance of persisting the data
 - Improve on the performance of data persistence
 
-## How I've accomplished
+## What I've accomplished
 To accomplish this, the data from the CSV file was first read using a FileReader and stored in a collection. At this point, the data was filtered to ensure any duplicates were removed before importing the data into the SQL database. The performance of loading the data into the collection and subsequent import to the database are reported. 
 
 ## Motivation
